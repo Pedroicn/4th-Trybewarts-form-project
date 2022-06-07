@@ -33,3 +33,7 @@ h1 {
   height: 500px;
 }
 
+#radioButtons {
+  display: flex;
+  flex-direction: column;
+}
