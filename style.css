@@ -4,21 +4,60 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url('/patrono-harry-potter.jpg');
+}
+
+#evaluation-form {
+  border: 2px solid rgb(251, 252, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  color: black;
+  font-size: large;
+  background-color: rgb(251, 252, 253, 0.5);
+  font-weight: 700;
+  border-radius: 10px;
+  max-width: 700px;
+  line-height: 27px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .header {
   display: flex;
-  background-color: rgb(50, 167, 145);
+  background-color: rgba(67, 70, 234, 0.5);
   width: 100%;
   height: 80px;
+  justify-content: space-around;
+}
+
+#logo-top {
+  display: flex;
+}
+
+#logo-top h1 {
+  align-self: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 80%;
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+
+#login {
+  display: flex;
+  height: 40%;
+  margin-top: 20px;
 }
 
 .trybewarts-login {
   display: flex;
-}
-
-#evaluation-form {
-  display: flex;
-  flex-direction: column;
-  width: 675px;
+  gap: 10px;
 }
 
 main {
@@ -26,24 +65,53 @@ main {
   justify-content: space-between;
 }
 
-h1 {
-  text-align: center;
-}
-
 #trybewarts-forms-logo {
   height: 500px;
+  margin-right: 60px;
+}
+
+#questions {
+  display: flex;
+  justify-content: center;
 }
 
 #radioButtons {
   display: flex;
   flex-direction: column;
+  margin-top: 17px;
+  margin-left: 10px;
 }
 
-#avaliacao {
+#input-1 {
   display: flex;
 }
 
-#family {
+#input-2 {
+  display: flex;
+}
+
+#textarea {
+  max-width: 70%;
+}
+
+footer {
+  color: aliceblue;
+}
+
+#label-content {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  max-width: 70%;
+  align-items: center;
+  
+}
+
+#form-data {
+  color: aliceblue;
+  font-size: large;
+  margin: 50px 100px;
+  font-weight: 700;
+  
 }
